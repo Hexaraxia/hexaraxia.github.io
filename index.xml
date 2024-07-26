@@ -5,8 +5,16 @@
     <link>https://hexaraxia.github.io/</link>
     <description>Recent content on Hexaraxia</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 26 Jul 2024 08:42:20 -0400</lastBuildDate>
     <atom:link href="https://hexaraxia.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hey</title>
+      <link>https://hexaraxia.github.io/posts/hey/</link>
+      <pubDate>Fri, 26 Jul 2024 08:42:20 -0400</pubDate>
+      <guid>https://hexaraxia.github.io/posts/hey/</guid>
+      <description>Still testing things out.</description>
+    </item>
   </channel>
 </rss>
