@@ -166,4 +166,90 @@
 
 
     </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Background Music Player</title>
+    </head>
+    <body>
+        <!-- Audio element for background music -->
+        <audio id="background-music" controls autoplay>
+            Your browser does not support the audio element.
+        </audio>
+    
+        <script>
+            // Array of music files
+            const playlist = [
+                'https://files.catbox.moe/jx39nt.mp3',
+                'https://files.catbox.moe/418nz3.mp3',
+                'https://files.catbox.moe/e4a0nm.mp3',
+                'https://files.catbox.moe/cq8f53.mp3',
+                'https://files.catbox.moe/fzqb6z.mp3',
+                'https://files.catbox.moe/13rjuu.mp3',
+                'https://files.catbox.moe/bkc8qd.mp3',
+                'https://files.catbox.moe/e5uqwu.mp3',
+                'https://files.catbox.moe/1defc1.mp3',
+                'https://files.catbox.moe/ht92jy.mp3',
+                'https://files.catbox.moe/dsu3cb.mp3',
+                'https://files.catbox.moe/rgcl6e.mp3',
+                'https://files.catbox.moe/5b5bq8.mp3',
+                'https://files.catbox.moe/culawh.mp3',
+                'https://files.catbox.moe/etouwe.mp3',
+                'https://files.catbox.moe/1dmywv.mp3',
+                'https://files.catbox.moe/0dqe5e.mp3',
+                'https://files.catbox.moe/vmtgoc.mp3',
+                'https://files.catbox.moe/y9ebqp.mp3',
+                'https://files.catbox.moe/pfzba3.mp3',
+                'https://files.catbox.moe/ewg4wm.mp3',
+                'https://files.catbox.moe/fdvq6o.mp3',
+                'https://files.catbox.moe/jpfv3v.mp3',
+                'https://files.catbox.moe/nygc7j.mp3',
+                'https://files.catbox.moe/hv9nkh.mp3',
+                'https://files.catbox.moe/rpb5wn.mp3',
+                'https://files.catbox.moe/cviyjb.mp3',
+                'https://files.catbox.moe/ed9qgm.mp3',
+                'https://files.catbox.moe/0wwmkq.mp3',
+                'https://files.catbox.moe/c2yoiw.mp3',
+                'https://files.catbox.moe/ulehvn.mp3',
+                'https://files.catbox.moe/3d02gs.mp3',
+                'https://files.catbox.moe/tqtega.mp3',
+                'https://files.catbox.moe/vctrnj.mp3',
+                'https://files.catbox.moe/xr87uw.mp3'
+            ];
+    
+            const audioElement = document.getElementById('background-music');
+            let currentTrackIndex = 0;
+    
+            // Set initial volume to 10%
+            audioElement.volume = 0.1; // Volume ranges from 0.0 (silent) to 1.0 (full volume)
+    
+            // Function to play the next track
+            function playNextTrack() {
+                currentTrackIndex = (currentTrackIndex + 1) % playlist.length;
+                audioElement.src = playlist[currentTrackIndex];
+                audioElement.play();
+            }
+    
+            // Function to check if the audio is playing
+            function checkIfPlaying() {
+                if (audioElement.paused) {
+                    audioElement.play().catch(error => {
+                        console.error('Playback error:', error);
+                    });
+                }
+            }
+    
+            // Set up event listener to play next track when the current track ends
+            audioElement.addEventListener('ended', playNextTrack);
+    
+            // Set up interval to periodically check if audio is playing
+            setInterval(checkIfPlaying, 1000); // Check every 1 second
+    
+            // Start playing the first track
+            audioElement.src = playlist[currentTrackIndex];
+            audioElement.play().catch(error => {
+                console.error('Playback error:', error);
+            });
+        </script>
+    </body>    
 </html>
