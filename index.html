@@ -166,4 +166,136 @@
 
 
     </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Background Music</title>
+        <style>
+            /* Hide audio controls */
+            audio {
+                display: none;
+            }
+    
+            /* Style the song info */
+            .song-info {
+                position: fixed; /* Fixes the position relative to the viewport */
+                bottom: 80px; /* Distance from the bottom, above the buttons */
+                left: 20px; /* Distance from the left */
+                color: #a9a9b3; /* Text color */
+                font-size: 16px; /* Adjust font size for better visibility */
+                z-index: 1000; /* Ensure info is on top of other content */
+            }
+    
+            /* Style the buttons container */
+            .control-buttons {
+                position: fixed; /* Fixes the position relative to the viewport */
+                bottom: 20px; /* Distance from the bottom */
+                left: 20px; /* Distance from the left */
+                display: flex; /* Align buttons side by side */
+                gap: 10px; /* Space between buttons */
+                z-index: 1000; /* Ensure buttons are on top of other content */
+            }
+    
+            button {
+                padding: 10px 20px;
+                font-size: 24px; /* Adjust font size for better visibility */
+                background-color: #1b1c1d; /* Dark background color */
+                color: #a9a9b3; /* Light gray text color */
+                border: 2px solid #333; /* Darker border color */
+                border-radius: 5px; /* Rounded corners */
+                cursor: pointer; /* Pointer cursor on hover */
+                transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+            }
+    
+            button:hover {
+                background-color: #333; /* Slightly lighter background on hover */
+                border-color: #666; /* Lighter border on hover */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="song-info" id="song-info">
+            <!-- Song info will be updated by JavaScript -->
+        </div>
+    
+        <div class="control-buttons">
+            <button id="prev-track">⏮</button>
+            <button id="play-pause-track">⏵</button>
+            <button id="next-track">⏭</button>
+        </div>
+    
+        <audio id="background-music">
+            <!-- List of sources is managed by JavaScript -->
+        </audio>
+    
+        <script>
+            const audioElement = document.getElementById('background-music');
+            const songInfoElement = document.getElementById('song-info');
+    
+            // Define the playlist with URL, artist and song name
+            const playlist = Array.from({ length: 35 }, (_, i) => ({
+                src: `https://files.catbox.moe/${['jx39nt', '418nz3', 'e4a0nm', 'cq8f53', 'fzqb6z', '13rjuu', 'bkc8qd', 'e5uqwu', '1defc1', 'ht92jy', 'dsu3cb', 'rgcl6e', '5b5bq8', 'culawh', 'etouwe', '1dmywv', '0dqe5e', 'vmtgoc', 'y9ebqp', 'pfzba3', 'ewg4wm', 'fdvq6o', 'jpfv3v', 'nygc7j', 'hv9nkh', 'rpb5wn', 'cviyjb', 'ed9qgm', '0wwmkq', 'c2yoiw', 'ulehvn', '3d02gs', 'tqtega', 'vctrnj', 'xr87uw'][i]}.mp3`,
+                artist: 'HOME',
+                name: `${i + 1}`
+            }));
+    
+            let currentIndex = 0;
+    
+            function updateAudioSource() {
+                const currentTrack = playlist[currentIndex];
+                audioElement.src = currentTrack.src;
+                audioElement.play();
+                updateSongInfo();
+            }
+    
+            function updateSongInfo() {
+                const currentTrack = playlist[currentIndex];
+                songInfoElement.textContent = `${currentTrack.artist} - ${currentTrack.name}`;
+            }
+    
+            function updatePlayPauseButton() {
+                const playPauseButton = document.getElementById('play-pause-track');
+                if (audioElement.paused) {
+                    playPauseButton.textContent = '⏵'; // Play
+                } else {
+                    playPauseButton.textContent = '⏸'; // Pause
+                }
+            }
+    
+            function playNextTrack() {
+                currentIndex = (currentIndex + 1) % playlist.length;
+                updateAudioSource();
+            }
+    
+            document.getElementById('prev-track').addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + playlist.length) % playlist.length;
+                updateAudioSource();
+            });
+    
+            document.getElementById('play-pause-track').addEventListener('click', () => {
+                if (audioElement.paused) {
+                    audioElement.play();
+                } else {
+                    audioElement.pause();
+                }
+                updatePlayPauseButton();
+            });
+    
+            document.getElementById('next-track').addEventListener('click', () => {
+                playNextTrack();
+            });
+    
+            audioElement.addEventListener('ended', () => {
+                playNextTrack();
+            });
+    
+            audioElement.addEventListener('play', updatePlayPauseButton);
+            audioElement.addEventListener('pause', updatePlayPauseButton);
+    
+            // Initialize the first track and set volume
+            audioElement.volume = 0.1; // Set volume to 10%
+            updateAudioSource();
+            updatePlayPauseButton(); // Initial button text
+        </script>
+    </body>
 </html>
