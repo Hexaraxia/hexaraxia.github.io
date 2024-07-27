@@ -220,7 +220,7 @@
     
         <div class="control-buttons">
             <button id="prev-track">⏮</button>
-            <button id="play-pause-track">⏵</button>
+            <button id="play-pause-track">▶️</button>
             <button id="next-track">⏭</button>
         </div>
     
@@ -256,7 +256,7 @@
             function updatePlayPauseButton() {
                 const playPauseButton = document.getElementById('play-pause-track');
                 if (audioElement.paused) {
-                    playPauseButton.textContent = '⏵'; // Play
+                    playPauseButton.textContent = '▶️'; // Play
                 } else {
                     playPauseButton.textContent = '⏸'; // Pause
                 }
