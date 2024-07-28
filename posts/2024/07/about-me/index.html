@@ -161,6 +161,10 @@ Thanks for checking out my blog">
                 width: 24px;
                 height: 24px;
             }
+
+            .desktop-only {
+                display: none;
+            }
         </style>
     </head>
 
@@ -328,17 +332,21 @@ Thanks for checking out my blog">
             
         </audio>
 
+        <div id="mobile-message" class="desktop-only">Music only available on desktop! Sorry! :(</div>
+
         <script>
             const audioElement = document.getElementById('background-music');
             const dateInfoElement = document.getElementById('date-info');
             const timeInfoElement = document.getElementById('time-info');
             const playPauseIcon = document.getElementById('play-pause-icon');
             const controlButtons = document.getElementById('control-buttons');
+            const songInfo = document.getElementById('song-info');
+            const mobileMessage = document.getElementById('mobile-message');
             const STORAGE_KEY = 'background-music-timestamp';
             const LAST_HOUR_KEY = 'background-music-last-hour';
             const MUTE_STATE_KEY = 'background-music-mute-state';
 
-            function isMobileDevice() {
+            function isMobile() {
                 return /Mobi|Android/i.test(navigator.userAgent);
             }
 
@@ -434,36 +442,41 @@ Thanks for checking out my blog">
                 updatePlayPauseButton();
             }
 
-            if (!isMobileDevice()) {
-                document.getElementById('play-pause-track').addEventListener('click', () => {
-                    if (audioElement.volume === 0) {
-                        audioElement.volume = 0.1; 
-                    } else {
-                        audioElement.volume = 0; 
-                    }
-                    updatePlayPauseButton();
-                    saveMuteState();
-                });
+            document.getElementById('play-pause-track').addEventListener('click', () => {
+                if (audioElement.volume === 0) {
+                    audioElement.volume = 0.1; 
+                } else {
+                    audioElement.volume = 0; 
+                }
+                updatePlayPauseButton();
+                saveMuteState();
+            });
 
-                let previousHour = loadLastHour();
+            let previousHour = loadLastHour();
 
-                
-                setInterval(() => {
-                    updateDateTimeInfo();
-                    const currentHour = new Date().getHours();
-                    if (currentHour !== previousHour) {
-                        updateAudioSource();
-                        previousHour = currentHour;
-                        saveCurrentHour();
-                    }
-                    saveCurrentTimestamp();
-                }, 1000);
+            
+            setInterval(() => {
+                updateDateTimeInfo();
+                const currentHour = new Date().getHours();
+                if (currentHour !== previousHour) {
+                    updateAudioSource();
+                    previousHour = currentHour;
+                    saveCurrentHour();
+                }
+                saveCurrentTimestamp();
+            }, 1000);
 
-                
-                loadMuteState();
-                updateAudioSource();
-                loadSavedTimestamp();
+            
+            loadMuteState();
+            updateAudioSource();
+            loadSavedTimestamp();
 
+            if (isMobile()) {
+                audioElement.remove();
+                controlButtons.style.display = 'none';
+                songInfo.style.display = 'none';
+                mobileMessage.style.display = 'block';
+            } else {
                 
                 window.addEventListener('load', () => {
                     setTimeout(() => {
@@ -476,10 +489,6 @@ Thanks for checking out my blog">
                         });
                     }, 1000);
                 });
-            } else {
-                
-                audioElement.remove();
-                controlButtons.remove();
             }
         </script>
     </body>
