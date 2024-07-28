@@ -6,23 +6,187 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 26 Jul 2024 12:16:21 -0400</lastBuildDate>
+        <lastBuildDate>Sun, 28 Jul 2024 04:30:52 -0400</lastBuildDate>
         <atom:link href="https://hexaraxia.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>About Me</title>
             <link>https://hexaraxia.github.io/posts/2024/07/about-me/</link>
-            <pubDate>Fri, 26 Jul 2024 12:16:21 -0400</pubDate>
+            <pubDate>Sun, 28 Jul 2024 04:30:52 -0400</pubDate>
             
             <guid>https://hexaraxia.github.io/posts/2024/07/about-me/</guid>
             <description>Hi I&amp;rsquo;m Hex n I&amp;rsquo;m from the US! I also go by Hexa if there&amp;rsquo;s another &amp;ldquo;Hex&amp;rdquo; present. I am a &amp;ldquo;jack-of-all-trades&amp;rdquo; meaning i specialize in many different skills, such as digital and traditional art, 3d modeling, coding, story telling, and game making.
 I don&amp;rsquo;t have much going on in my life, but at the moment I&amp;rsquo;m majoring in bio-chemistry so I can eventually be an anesthesiologist.
-Thanks for checking out my blog</description>
+Thanks for checking out my blog </description>
             <content type="html"><![CDATA[<h3 id="hi">Hi</h3>
 <p>I&rsquo;m <strong>Hex</strong> n I&rsquo;m from the US! I also go by <strong>Hexa</strong> if there&rsquo;s another &ldquo;Hex&rdquo; present. I am a &ldquo;jack-of-all-trades&rdquo; meaning i specialize in <em>many</em> different skills, such as digital and traditional art, 3d modeling, coding, story telling, and game making.</p>
 <p>I don&rsquo;t have much going on in my life, but at the moment I&rsquo;m majoring in bio-chemistry so I can eventually be an anesthesiologist.</p>
-<p>Thanks for checking out my blog</p>
-<p><img alt="Me!" src="/img/me-4.png"></p>
+<p>Thanks for checking out my blog
+
+    <img src="/img/me-4.png"  class="center"  />
+
+</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Dev Log 5</title>
+            <link>https://hexaraxia.github.io/posts/2024/07/dev-log-5/</link>
+            <pubDate>Sun, 28 Jul 2024 03:06:07 -0400</pubDate>
+            
+            <guid>https://hexaraxia.github.io/posts/2024/07/dev-log-5/</guid>
+            <description>Content Warning? Blood | I tripped my foot on a hurt part on accident lol
+Added a debug to change the lighting
+Your browser does not support the video tag.Also added a display for every skintone in the game. My vision is that these will be the only skintones in the game but you can you a slider to change the brightness and saturation to your liking
+Your browser does not support the video tag.</description>
+            <content type="html"><![CDATA[<h3 id="content-warning">Content Warning?</h3>
+<p>Blood | I tripped my foot on a hurt part on accident lol</p>
+<p>Added a debug to change the lighting</p>
+
+    <video width="720" height="405" controls class="center" >
+        <source src="/vid/2024-07-28%2003-02-29.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+<hr>
+<p>Also added a display for every skintone in the game.
+My vision is that these will be the only skintones in the game but you can you a slider to change the brightness and saturation to your liking</p>
+
+    <video width="720" height="405" controls class="center" >
+        <source src="/vid/2024-07-28%2003-04-00.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Dev Log 4</title>
+            <link>https://hexaraxia.github.io/posts/2024/07/dev-log-4/</link>
+            <pubDate>Sun, 28 Jul 2024 03:06:06 -0400</pubDate>
+            
+            <guid>https://hexaraxia.github.io/posts/2024/07/dev-log-4/</guid>
+            <description>Added a LOT of hats to the game. finally swagging.
+Changed the lighting to 4 different presets. Now the game looks even better than before. the Image above is using
+Noon Evening Night Blood Moon </description>
+            <content type="html"><![CDATA[<p>Added a LOT of hats to the game. finally swagging.</p>
+
+    <img src="/img/dev4a.png"  class="center"  />
+
+
+<hr>
+<p>Changed the lighting to 4 different presets. Now the game looks even better than before. the Image above is using</p>
+<h3 id="noon">Noon</h3>
+
+    <img src="/img/dev4b.png"  class="center"  />
+
+
+<h3 id="evening">Evening</h3>
+
+    <img src="/img/dev4c.png"  class="center"  />
+
+
+<h3 id="night">Night</h3>
+
+    <img src="/img/dev4d.png"  class="center"  />
+
+
+<h3 id="blood-moon">Blood Moon</h3>
+
+    <img src="/img/dev4e.png"  class="center"  />
+
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Dev Log 3</title>
+            <link>https://hexaraxia.github.io/posts/2024/07/dev-log-3/</link>
+            <pubDate>Sun, 28 Jul 2024 03:06:05 -0400</pubDate>
+            
+            <guid>https://hexaraxia.github.io/posts/2024/07/dev-log-3/</guid>
+            <description>Content Warning? Blood
+Made it so the player&amp;rsquo;s health affects the players normal speed/sprinting speed. I remember this taking a long time and just being generally annoying to make.
+Your browser does not support the video tag.</description>
+            <content type="html"><![CDATA[<h3 id="content-warning">Content Warning?</h3>
+<p>Blood</p>
+<p>Made it so the player&rsquo;s health affects the players normal speed/sprinting speed. I remember this taking a long time and just being generally annoying to make.</p>
+
+    <video width="720" height="405" controls class="center" >
+        <source src="/vid/dev3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Dev Log 2</title>
+            <link>https://hexaraxia.github.io/posts/2024/07/dev-log-2/</link>
+            <pubDate>Sun, 28 Jul 2024 03:06:04 -0400</pubDate>
+            
+            <guid>https://hexaraxia.github.io/posts/2024/07/dev-log-2/</guid>
+            <description>Content Warning? Blood
+Added a whoooole bunch of outfits. Maybe for a rank system? IDK LOL
+Your browser does not support the video tag.Added some blood splatters when the player is hit. The speed is also affected a little but it wasnt perfected until the next dev log.
+Your browser does not support the video tag.</description>
+            <content type="html"><![CDATA[<h3 id="content-warning">Content Warning?</h3>
+<p>Blood</p>
+<p>Added a whoooole bunch of outfits. Maybe for a rank system? IDK LOL</p>
+
+    <video width="720" height="405" controls class="center" >
+        <source src="/vid/dev2a.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+<hr>
+<p>Added some blood splatters when the player is hit. The speed is also affected a little but it wasnt perfected until the next dev log.</p>
+
+    <video width="720" height="405" controls class="center" >
+        <source src="/vid/dev2b.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Dev Log 1</title>
+            <link>https://hexaraxia.github.io/posts/2024/07/dev-log-1/</link>
+            <pubDate>Sun, 28 Jul 2024 03:06:03 -0400</pubDate>
+            
+            <guid>https://hexaraxia.github.io/posts/2024/07/dev-log-1/</guid>
+            <description>First steps into the game. Made a damage system. I was unsure on how I wanted this game to turn out lol
+Your browser does not support the video tag.Also added a sprint system. This took a while to do lol but I&amp;rsquo;m pretty proud of it.
+Your browser does not support the video tag.</description>
+            <content type="html"><![CDATA[<p>First steps into the game. Made a damage system. I was unsure on how I wanted this game to turn out lol</p>
+
+    <video width="720" height="405" controls class="center" >
+        <source src="/vid/dev1a.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+<hr>
+<p>Also added a sprint system. This took a while to do lol but I&rsquo;m pretty proud of it.</p>
+
+    <video width="720" height="405" controls class="center" >
+        <source src="/vid/dev1b.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Where To Find Me</title>
+            <link>https://hexaraxia.github.io/posts/2024/07/where-to-find-me/</link>
+            <pubDate>Fri, 26 Jul 2024 12:16:21 -0400</pubDate>
+            
+            <guid>https://hexaraxia.github.io/posts/2024/07/where-to-find-me/</guid>
+            <description>Hi again To be honest, I&amp;rsquo;m not sure! Your best bet would be my instagram or my twitter (X). I tend to not add random people on discord so good luck messaging me there!</description>
+            <content type="html"><![CDATA[<h3 id="hi-again">Hi again</h3>
+<p>To be honest, I&rsquo;m not sure!
+Your best bet would be my <a href="https://www.instagram.com/hexaraxia/">instagram</a> or my <a href="https://x.com/Hexaraxia">twitter (X)</a>. I tend to not add random people on discord so good luck messaging me there!</p>
 ]]></content>
         </item>
         
