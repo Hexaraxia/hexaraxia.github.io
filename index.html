@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
 	<meta name="generator" content="Hugo 0.129.0">
-        <meta charset="UTF-8">
+    <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -94,66 +94,66 @@
 
 
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Background Music</title>
-        <style>
-             
-            audio {
-                display: none;
-            }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Music</title>
+    <style>
+         
+        audio {
+            display: none;
+        }
 
-             
-            .song-info {
-                position: fixed;  
-                bottom: 80px;  
-                left: 20px;  
-                color: #a9a9b3;  
-                font-size: 16px;  
-                z-index: 1000;  
-                display: flex;
-                flex-direction: column;
-            }
+         
+        .song-info {
+            position: fixed;  
+            bottom: 80px;  
+            left: 20px;  
+            color: #a9a9b3;  
+            font-size: 16px;  
+            z-index: 1000;  
+            display: flex;
+            flex-direction: column;
+        }
 
-             
-            .control-buttons {
-                position: fixed;  
-                bottom: 20px;  
-                left: 20px;  
-                display: flex;  
-                gap: 10px;  
-                z-index: 1000;  
-            }
+         
+        .control-buttons {
+            position: fixed;  
+            bottom: 20px;  
+            left: 20px;  
+            display: flex;  
+            gap: 10px;  
+            z-index: 1000;  
+        }
 
-            button {
-                padding: 10px 20px;
-                font-size: 24px;  
-                background-color: #1b1c1d;  
-                color: #a9a9b3;  
-                border: 2px solid #333;  
-                border-radius: 5px;  
-                cursor: pointer;  
-                transition: background-color 0.3s, border-color 0.3s;  
-            }
+        button {
+            padding: 10px 20px;
+            font-size: 24px;  
+            background-color: #1b1c1d;  
+            color: #a9a9b3;  
+            border: 2px solid #333;  
+            border-radius: 5px;  
+            cursor: pointer;  
+            transition: background-color 0.3s, border-color 0.3s;  
+        }
 
-            button:hover {
-                background-color: #333;  
-                border-color: #666;  
-            }
+        button:hover {
+            background-color: #333;  
+            border-color: #666;  
+        }
 
-            button img {
-                width: 24px;
-                height: 24px;
-            }
-        </style>
-    </head>
+        button img {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
 
-    
+
     <body class=" background-image" style="background-image: url('img/stripes.gif');" >
 
 
-        <div class="container">
-            <header class="header">
+<div class="container">
+    <header class="header">
     <span class="header__inner">
         <a href="https://hexaraxia.github.io/" style="text-decoration: none;">
     <div class="logo">
@@ -183,8 +183,8 @@
 </header>
 
 
-            <div class="content">
-                
+    <div class="content">
+        
     <main aria-role="main">
         <div>
             
@@ -200,10 +200,10 @@
         </div>
     </main>
 
-            </div>
+    </div>
 
-            
-                <footer class="footer">
+    
+        <footer class="footer">
     
     <div class="footer__inner">
         <div class="footer__content">
@@ -224,165 +224,165 @@
     
 </footer>
 
-            
-        </div>
+    
+</div>
 
-        <div class="song-info" id="song-info">
-            
-            <div id="date-info"></div>
-            <div id="time-info"></div>
-        </div>
+<div class="song-info" id="song-info">
+    
+    <div id="date-info"></div>
+    <div id="time-info"></div>
+</div>
 
-        <div class="control-buttons">
-            <button id="play-pause-track"><img src="https://hexaraxia.github.io/img/off.png" alt="Off" id="play-pause-icon"></button>
-        </div>
+<div class="control-buttons">
+    <button id="play-pause-track"><img src="https://hexaraxia.github.io/img/off.png" alt="Off" id="play-pause-icon"></button>
+</div>
 
-        <audio id="background-music" autoplay loop>
-            
-        </audio>
+<audio id="background-music" loop>
+    
+</audio>
 
-        <script>
-            const audioElement = document.getElementById('background-music');
-            const dateInfoElement = document.getElementById('date-info');
-            const timeInfoElement = document.getElementById('time-info');
-            const playPauseIcon = document.getElementById('play-pause-icon');
-            const STORAGE_KEY = 'background-music-timestamp';
-            const LAST_HOUR_KEY = 'background-music-last-hour';
-            const MUTE_STATE_KEY = 'background-music-mute-state';
+<script>
+    const audioElement = document.getElementById('background-music');
+    const dateInfoElement = document.getElementById('date-info');
+    const timeInfoElement = document.getElementById('time-info');
+    const playPauseIcon = document.getElementById('play-pause-icon');
+    const STORAGE_KEY = 'background-music-timestamp';
+    const LAST_HOUR_KEY = 'background-music-last-hour';
+    const MUTE_STATE_KEY = 'background-music-mute-state';
 
-            function getTimeBasedTrack() {
-                const now = new Date();
-                const hours = now.getHours();
-                const period = hours < 12 ? 'AM' : 'PM';
-                const hour = hours % 12 || 12; 
-                return `${hour} ${period}`;
-            }
+    function getTimeBasedTrack() {
+        const now = new Date();
+        const hours = now.getHours();
+        const period = hours < 12 ? 'AM' : 'PM';
+        const hour = hours % 12 || 12; 
+        return `${hour} ${period}`;
+    }
 
-            function isDecember() {
-                const now = new Date();
-                return now.getMonth() === 11; 
-            }
+    function isDecember() {
+        const now = new Date();
+        return now.getMonth() === 11; 
+    }
 
-            function updateAudioSource() {
-                const currentTrack = getTimeBasedTrack();
-                const basePath = isDecember() ? '/sound/snowytime/' : '/sound/time/';
-                const trackName = isDecember() ? `${currentTrack} - Snowy.mp3` : `${currentTrack}.mp3`;
-                audioElement.src = `${basePath}${trackName}`;
-                audioElement.play();
-            }
+    function updateAudioSource() {
+        const currentTrack = getTimeBasedTrack();
+        const basePath = isDecember() ? '/sound/snowytime/' : '/sound/time/';
+        const trackName = isDecember() ? `${currentTrack} - Snowy.mp3` : `${currentTrack}.mp3`;
+        audioElement.src = `${basePath}${trackName}`;
+        audioElement.play();
+    }
 
-            function updateDateTimeInfo() {
-                const now = new Date();
+    function updateDateTimeInfo() {
+        const now = new Date();
 
-                
-                let dateString = '';
-                if (now.getMonth() === 11 && now.getDate() === 25) {
-                    dateString = 'Happy Holidays!';
-                } else if (now.getMonth() === 9 && now.getDate() === 31) {
-                    dateString = 'Happy Halloween!';
-                } else if (now.getMonth() === 0 && now.getDate() === 1) {
-                    dateString = 'Happy New Year!';
-                } else if (now.getMonth() === 6 && now.getDate() === 4) {
-                    dateString = 'Happy Independence Day!';
-                } else {
-                    const options = { month: 'short', day: 'numeric', year: 'numeric' };
-                    dateString = now.toLocaleDateString('en-US', options);
-                }
-                dateInfoElement.textContent = dateString;
+        
+        let dateString = '';
+        if (now.getMonth() === 11 && now.getDate() === 25) {
+            dateString = 'Happy Holidays!';
+        } else if (now.getMonth() === 9 && now.getDate() === 31) {
+            dateString = 'Happy Halloween!';
+        } else if (now.getMonth() === 0 && now.getDate() === 1) {
+            dateString = 'Happy New Year!';
+        } else if (now.getMonth() === 6 && now.getDate() === 4) {
+            dateString = 'Happy Independence Day!';
+        } else {
+            const options = { month: 'short', day: 'numeric', year: 'numeric' };
+            dateString = now.toLocaleDateString('en-US', options);
+        }
+        dateInfoElement.textContent = dateString;
 
-                
-                const hours = now.getHours();
-                const minutes = now.getMinutes().toString().padStart(2, '0');
-                const seconds = now.getSeconds().toString().padStart(2, '0');
-                const period = hours < 12 ? 'AM' : 'PM';
-                const hour = hours % 12 || 12; 
-                timeInfoElement.textContent = `${hour}:${minutes}:${seconds} ${period}`;
-            }
+        
+        const hours = now.getHours();
+        const minutes = now.getMinutes().toString().padStart(2, '0');
+        const seconds = now.getSeconds().toString().padStart(2, '0');
+        const period = hours < 12 ? 'AM' : 'PM';
+        const hour = hours % 12 || 12; 
+        timeInfoElement.textContent = `${hour}:${minutes}:${seconds} ${period}`;
+    }
 
-            function updatePlayPauseButton() {
-                if (audioElement.volume === 0) {
-                    playPauseIcon.src = '/img/off.png'; 
-                    playPauseIcon.alt = 'Off';
-                } else {
-                    playPauseIcon.src = '/img/on.png'; 
-                    playPauseIcon.alt = 'On';
-                }
-            }
+    function updatePlayPauseButton() {
+        if (audioElement.volume === 0) {
+            playPauseIcon.src = '/img/off.png'; 
+            playPauseIcon.alt = 'Off';
+        } else {
+            playPauseIcon.src = '/img/on.png'; 
+            playPauseIcon.alt = 'On';
+        }
+    }
 
-            function saveCurrentTimestamp() {
-                localStorage.setItem(STORAGE_KEY, audioElement.currentTime);
-            }
+    function saveCurrentTimestamp() {
+        localStorage.setItem(STORAGE_KEY, audioElement.currentTime);
+    }
 
-            function loadSavedTimestamp() {
-                const savedTime = localStorage.getItem(STORAGE_KEY);
-                if (savedTime !== null) {
-                    audioElement.currentTime = parseFloat(savedTime);
-                }
-            }
+    function loadSavedTimestamp() {
+        const savedTime = localStorage.getItem(STORAGE_KEY);
+        if (savedTime !== null) {
+            audioElement.currentTime = parseFloat(savedTime);
+        }
+    }
 
-            function saveCurrentHour() {
-                localStorage.setItem(LAST_HOUR_KEY, new Date().getHours());
-            }
+    function saveCurrentHour() {
+        localStorage.setItem(LAST_HOUR_KEY, new Date().getHours());
+    }
 
-            function loadLastHour() {
-                return parseInt(localStorage.getItem(LAST_HOUR_KEY), 10);
-            }
+    function loadLastHour() {
+        return parseInt(localStorage.getItem(LAST_HOUR_KEY), 10);
+    }
 
-            function saveMuteState() {
-                localStorage.setItem(MUTE_STATE_KEY, audioElement.volume === 0 ? 'muted' : 'unmuted');
-            }
+    function saveMuteState() {
+        localStorage.setItem(MUTE_STATE_KEY, audioElement.volume === 0 ? 'muted' : 'unmuted');
+    }
 
-            function loadMuteState() {
-                const muteState = localStorage.getItem(MUTE_STATE_KEY);
-                if (muteState === 'muted') {
-                    audioElement.volume = 0;
-                } else {
-                    audioElement.volume = 0.1;
-                }
-                updatePlayPauseButton();
-            }
+    function loadMuteState() {
+        const muteState = localStorage.getItem(MUTE_STATE_KEY);
+        if (muteState === 'muted') {
+            audioElement.volume = 0;
+        } else {
+            audioElement.volume = 0.1;
+        }
+        updatePlayPauseButton();
+    }
 
-            document.getElementById('play-pause-track').addEventListener('click', () => {
-                if (audioElement.volume === 0) {
-                    audioElement.volume = 0.1; 
-                } else {
-                    audioElement.volume = 0; 
-                }
-                updatePlayPauseButton();
-                saveMuteState();
-            });
+    document.getElementById('play-pause-track').addEventListener('click', () => {
+        if (audioElement.volume === 0) {
+            audioElement.volume = 0.1; 
+        } else {
+            audioElement.volume = 0; 
+        }
+        updatePlayPauseButton();
+        saveMuteState();
+    });
 
-            let previousHour = loadLastHour();
+    let previousHour = loadLastHour();
 
-            
-            setInterval(() => {
-                updateDateTimeInfo();
-                const currentHour = new Date().getHours();
-                if (currentHour !== previousHour) {
-                    updateAudioSource();
-                    previousHour = currentHour;
-                    saveCurrentHour();
-                }
-                saveCurrentTimestamp();
-            }, 1000);
-
-            
-            loadMuteState();
+    
+    setInterval(() => {
+        updateDateTimeInfo();
+        const currentHour = new Date().getHours();
+        if (currentHour !== previousHour) {
             updateAudioSource();
-            loadSavedTimestamp();
+            previousHour = currentHour;
+            saveCurrentHour();
+        }
+        saveCurrentTimestamp();
+    }, 1000);
 
-            
-            window.addEventListener('load', () => {
-                setTimeout(() => {
-                    audioElement.play().catch(() => {
-                        
-                        window.addEventListener('click', () => {
-                            audioElement.play();
-                            updatePlayPauseButton();
-                        }, { once: true });
-                    });
-                }, 1000);
+    
+    loadMuteState();
+    updateAudioSource();
+    loadSavedTimestamp();
+
+    
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            audioElement.play().catch(() => {
+                
+                window.addEventListener('click', () => {
+                    audioElement.play();
+                    updatePlayPauseButton();
+                }, { once: true });
             });
-        </script>
-    </body>
+        }, 1000);
+    });
+</script>
+</body>
 </html>
