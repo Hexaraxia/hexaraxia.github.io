@@ -162,7 +162,7 @@ Your browser does not support the video tag.</description>
             <content type="html"><![CDATA[<p>First steps into the game. Made a damage system. I was unsure on how I wanted this game to turn out lol</p>
 
     <video width="720" height="405" controls class="center" >
-        <source src="/vid/dev1a.mp4" type="video/mp4">
+        <source src="https://files.catbox.moe/5r01yc.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
@@ -170,7 +170,7 @@ Your browser does not support the video tag.</description>
 <p>Also added a sprint system. This took a while to do lol but I&rsquo;m pretty proud of it.</p>
 
     <video width="720" height="405" controls class="center" >
-        <source src="/vid/dev1b.mp4" type="video/mp4">
+        <source src="https://files.catbox.moe/hb4cdt.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
