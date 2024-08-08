@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hexaraxia.github.io/posts/2024/07/about-me/</loc>
-    <lastmod>2024-07-28T04:30:52-04:00</lastmod>
+    <loc>https://hexaraxia.github.io/tags/dev-log/</loc>
+    <lastmod>2024-08-08T15:15:30-04:00</lastmod>
+  </url><url>
+    <loc>https://hexaraxia.github.io/posts/2024/08/dev-log-6/</loc>
+    <lastmod>2024-08-08T15:15:30-04:00</lastmod>
   </url><url>
     <loc>https://hexaraxia.github.io/</loc>
+    <lastmod>2024-08-08T15:15:30-04:00</lastmod>
+  </url><url>
+    <loc>https://hexaraxia.github.io/posts/</loc>
+    <lastmod>2024-08-08T15:15:30-04:00</lastmod>
+  </url><url>
+    <loc>https://hexaraxia.github.io/tags/roblox/</loc>
+    <lastmod>2024-08-08T15:15:30-04:00</lastmod>
+  </url><url>
+    <loc>https://hexaraxia.github.io/tags/</loc>
+    <lastmod>2024-08-08T15:15:30-04:00</lastmod>
+  </url><url>
+    <loc>https://hexaraxia.github.io/posts/2024/07/about-me/</loc>
     <lastmod>2024-07-28T04:30:52-04:00</lastmod>
   </url><url>
     <loc>https://hexaraxia.github.io/tags/information/</loc>
@@ -14,22 +29,10 @@
     <loc>https://hexaraxia.github.io/tags/pinned/</loc>
     <lastmod>2024-07-28T04:30:52-04:00</lastmod>
   </url><url>
-    <loc>https://hexaraxia.github.io/posts/</loc>
-    <lastmod>2024-07-28T04:30:52-04:00</lastmod>
-  </url><url>
-    <loc>https://hexaraxia.github.io/tags/</loc>
-    <lastmod>2024-07-28T04:30:52-04:00</lastmod>
-  </url><url>
     <loc>https://hexaraxia.github.io/tags/content-warning/</loc>
     <lastmod>2024-07-28T03:06:07-04:00</lastmod>
   </url><url>
-    <loc>https://hexaraxia.github.io/tags/dev-log/</loc>
-    <lastmod>2024-07-28T03:06:07-04:00</lastmod>
-  </url><url>
     <loc>https://hexaraxia.github.io/posts/2024/07/dev-log-5/</loc>
-    <lastmod>2024-07-28T03:06:07-04:00</lastmod>
-  </url><url>
-    <loc>https://hexaraxia.github.io/tags/roblox/</loc>
     <lastmod>2024-07-28T03:06:07-04:00</lastmod>
   </url><url>
     <loc>https://hexaraxia.github.io/posts/2024/07/dev-log-4/</loc>

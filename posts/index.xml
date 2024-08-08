@@ -6,8 +6,52 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sun, 28 Jul 2024 04:30:52 -0400</lastBuildDate>
+        <lastBuildDate>Thu, 08 Aug 2024 15:15:30 -0400</lastBuildDate>
         <atom:link href="https://hexaraxia.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Dev Log 6</title>
+            <link>https://hexaraxia.github.io/posts/2024/08/dev-log-6/</link>
+            <pubDate>Thu, 08 Aug 2024 15:15:30 -0400</pubDate>
+            
+            <guid>https://hexaraxia.github.io/posts/2024/08/dev-log-6/</guid>
+            <description>A LOT was added with this n i&amp;rsquo;m really happy with how it turned out!!!
++Added a new dynamic face with blinking Currently, theres only 1 face but I plan to make a LOOOOT more. You&amp;rsquo;re able to change the face color
+Different Eyes! Example 1 Example 2 Example 3 +Added an idle, walk, and run animation
++Added music whenever the lighting changes
+~Changed the base walking speed to be 6.</description>
+            <content type="html"><![CDATA[<p>A LOT was added with this n i&rsquo;m really happy with how it turned out!!!</p>
+<p>+Added a new dynamic face with blinking
+Currently, theres only 1 face but I plan to make a LOOOOT more. You&rsquo;re able to change the face color</p>
+<h3 id="different-eyes-example-1">Different Eyes! Example 1</h3>
+
+    <img src="/img/faces1.png"  class="center"  />
+
+
+<h3 id="example-2">Example 2</h3>
+
+    <img src="/img/faces2.png"  class="center"  />
+
+
+<h3 id="example-3">Example 3</h3>
+
+    <img src="/img/faces3.png"  class="center"  />
+
+
+<p>+Added an idle, walk, and run animation</p>
+<p>+Added music whenever the lighting changes</p>
+<p>~Changed the base walking speed to be 6.
+This syncs up with the walking animation and makes more sense; you&rsquo;re walking. You should be at a walking speed.</p>
+<h3 id="lighting--animations--blinking">Lighting + Animations + Blinking</h3>
+
+    <video width="720" height="405" controls class="center" >
+        <source src="/vid/bestdevlogyet.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+<hr>
+]]></content>
+        </item>
         
         <item>
             <title>About Me</title>

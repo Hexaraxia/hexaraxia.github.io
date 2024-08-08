@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 28 Jul 2024 03:06:07 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 08 Aug 2024 15:15:30 -0400</lastBuildDate>
     <atom:link href="https://hexaraxia.github.io/tags/dev-log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dev Log 6</title>
+      <link>https://hexaraxia.github.io/posts/2024/08/dev-log-6/</link>
+      <pubDate>Thu, 08 Aug 2024 15:15:30 -0400</pubDate>
+      <guid>https://hexaraxia.github.io/posts/2024/08/dev-log-6/</guid>
+      <description>A LOT was added with this n i&amp;rsquo;m really happy with how it turned out!!!&#xA;+Added a new dynamic face with blinking Currently, theres only 1 face but I plan to make a LOOOOT more. You&amp;rsquo;re able to change the face color&#xA;Different Eyes! Example 1 Example 2 Example 3 +Added an idle, walk, and run animation&#xA;+Added music whenever the lighting changes&#xA;~Changed the base walking speed to be 6.</description>
+    </item>
     <item>
       <title>Dev Log 5</title>
       <link>https://hexaraxia.github.io/posts/2024/07/dev-log-5/</link>
