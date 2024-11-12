@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev Log on Hexaraxia</title>
+    <link>https://hexaraxia.github.io/tags/dev-log/</link>
+    <description>Recent content in Dev Log on Hexaraxia</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 08 Aug 2024 15:15:30 -0400</lastBuildDate>
+    <atom:link href="https://hexaraxia.github.io/tags/dev-log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dev Log 6</title>
+      <link>https://hexaraxia.github.io/posts/2024/08/dev-log-6/</link>
+      <pubDate>Thu, 08 Aug 2024 15:15:30 -0400</pubDate>
+      <guid>https://hexaraxia.github.io/posts/2024/08/dev-log-6/</guid>
+      <description>A LOT was added with this n i&amp;rsquo;m really happy with how it turned out!!!&#xA;+Added a new dynamic face with blinking Currently, theres only 1 face but I plan to make a LOOOOT more. You&amp;rsquo;re able to change the face color&#xA;Different Eyes! Example 1 Example 2 Example 3 +Added an idle, walk, and run animation&#xA;+Added music whenever the lighting changes&#xA;~Changed the base walking speed to be 6.</description>
+    </item>
+    <item>
+      <title>Dev Log 7</title>
+      <link>https://hexaraxia.github.io/posts/2024/08/dev-log-7/</link>
+      <pubDate>Thu, 08 Aug 2024 15:15:30 -0400</pubDate>
+      <guid>https://hexaraxia.github.io/posts/2024/08/dev-log-7/</guid>
+      <description>Gonna pick up this project again. I have an idea on making a &amp;ldquo;Brain&amp;rdquo; system I can just drag and drop into NPCs. Here&amp;rsquo;s the Eye/tracking system&#xA;+Added NPC sight system&#xA;Different Eyes! Example 1 Your browser does not support the video tag.&#xD;Planning for other NPC brain power. Sight is ooonly the beginning! I have an idea to add Hearing, and Memory. Memory will be really useful for when the NPC can walk.</description>
+    </item>
+    <item>
+      <title>Dev Log 5</title>
+      <link>https://hexaraxia.github.io/posts/2024/07/dev-log-5/</link>
+      <pubDate>Sun, 28 Jul 2024 03:06:07 -0400</pubDate>
+      <guid>https://hexaraxia.github.io/posts/2024/07/dev-log-5/</guid>
+      <description>Content Warning? Blood | I tripped my foot on a hurt part on accident lol&#xA;Added a debug to change the lighting&#xA;Your browser does not support the video tag.&#xD;Also added a display for skintones. My vision is that these will be the only skintones in the game but you can use a slider to change the brightness and saturation to your liking&#xA;Your browser does not support the video tag.</description>
+    </item>
+    <item>
+      <title>Dev Log 4</title>
+      <link>https://hexaraxia.github.io/posts/2024/07/dev-log-4/</link>
+      <pubDate>Sun, 28 Jul 2024 03:06:06 -0400</pubDate>
+      <guid>https://hexaraxia.github.io/posts/2024/07/dev-log-4/</guid>
+      <description>Added a LOT of hats to the game. finally swagging.&#xA;Changed the lighting to 4 different presets. Now the game looks even better than before. the Image above is using&#xA;Noon Evening Night Blood Moon </description>
+    </item>
+    <item>
+      <title>Dev Log 3</title>
+      <link>https://hexaraxia.github.io/posts/2024/07/dev-log-3/</link>
+      <pubDate>Sun, 28 Jul 2024 03:06:05 -0400</pubDate>
+      <guid>https://hexaraxia.github.io/posts/2024/07/dev-log-3/</guid>
+      <description>Content Warning? Blood&#xA;Made it so the player&amp;rsquo;s health affects the players normal speed/sprinting speed. I remember this taking a long time and just being generally annoying to make.&#xA;Your browser does not support the video tag.&#xD;</description>
+    </item>
+    <item>
+      <title>Dev Log 2</title>
+      <link>https://hexaraxia.github.io/posts/2024/07/dev-log-2/</link>
+      <pubDate>Sun, 28 Jul 2024 03:06:04 -0400</pubDate>
+      <guid>https://hexaraxia.github.io/posts/2024/07/dev-log-2/</guid>
+      <description>Content Warning? Blood&#xA;Added a whoooole bunch of outfits. Maybe for a rank system? IDK LOL&#xA;Your browser does not support the video tag.&#xD;Added some blood splatters when the player is hit. The speed is also affected a little but it wasnt perfected until the next dev log.&#xA;Your browser does not support the video tag.&#xD;</description>
+    </item>
+    <item>
+      <title>Dev Log 1</title>
+      <link>https://hexaraxia.github.io/posts/2024/07/dev-log-1/</link>
+      <pubDate>Sun, 28 Jul 2024 03:06:03 -0400</pubDate>
+      <guid>https://hexaraxia.github.io/posts/2024/07/dev-log-1/</guid>
+      <description>First steps into the game. Made a damage system. I was unsure on how I wanted this game to turn out lol&#xA;Your browser does not support the video tag.&#xD;Also added a sprint system. This took a while to do lol but I&amp;rsquo;m pretty proud of it.&#xA;Your browser does not support the video tag.&#xD;</description>
+    </item>
+  </channel>
+</rss>
