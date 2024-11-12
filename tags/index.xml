@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hexaraxia</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://hexaraxia.github.io/tags/</link>
     <description>Recent content in Tags on Hexaraxia</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 08 Aug 2024 15:15:30 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hexaraxia.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dev Log</title>
-      <link>http://localhost:1313/tags/dev-log/</link>
+      <link>https://hexaraxia.github.io/tags/dev-log/</link>
       <pubDate>Thu, 08 Aug 2024 15:15:30 -0400</pubDate>
-      <guid>http://localhost:1313/tags/dev-log/</guid>
+      <guid>https://hexaraxia.github.io/tags/dev-log/</guid>
       <description></description>
     </item>
     <item>
       <title>Roblox</title>
-      <link>http://localhost:1313/tags/roblox/</link>
+      <link>https://hexaraxia.github.io/tags/roblox/</link>
       <pubDate>Thu, 08 Aug 2024 15:15:30 -0400</pubDate>
-      <guid>http://localhost:1313/tags/roblox/</guid>
+      <guid>https://hexaraxia.github.io/tags/roblox/</guid>
       <description></description>
     </item>
     <item>
       <title>Information</title>
-      <link>http://localhost:1313/tags/information/</link>
+      <link>https://hexaraxia.github.io/tags/information/</link>
       <pubDate>Sun, 28 Jul 2024 04:30:52 -0400</pubDate>
-      <guid>http://localhost:1313/tags/information/</guid>
+      <guid>https://hexaraxia.github.io/tags/information/</guid>
       <description></description>
     </item>
     <item>
       <title>Pinned</title>
-      <link>http://localhost:1313/tags/pinned/</link>
+      <link>https://hexaraxia.github.io/tags/pinned/</link>
       <pubDate>Sun, 28 Jul 2024 04:30:52 -0400</pubDate>
-      <guid>http://localhost:1313/tags/pinned/</guid>
+      <guid>https://hexaraxia.github.io/tags/pinned/</guid>
       <description></description>
     </item>
     <item>
       <title>Content Warning</title>
-      <link>http://localhost:1313/tags/content-warning/</link>
+      <link>https://hexaraxia.github.io/tags/content-warning/</link>
       <pubDate>Sun, 28 Jul 2024 03:06:07 -0400</pubDate>
-      <guid>http://localhost:1313/tags/content-warning/</guid>
+      <guid>https://hexaraxia.github.io/tags/content-warning/</guid>
       <description></description>
     </item>
     <item>
       <title>Blood</title>
-      <link>http://localhost:1313/tags/blood/</link>
+      <link>https://hexaraxia.github.io/tags/blood/</link>
       <pubDate>Sun, 28 Jul 2024 03:06:05 -0400</pubDate>
-      <guid>http://localhost:1313/tags/blood/</guid>
+      <guid>https://hexaraxia.github.io/tags/blood/</guid>
       <description></description>
     </item>
   </channel>
