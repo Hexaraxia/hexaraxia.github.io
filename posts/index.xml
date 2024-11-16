@@ -6,8 +6,55 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 08 Aug 2024 15:15:30 -0400</lastBuildDate>
+        <lastBuildDate>Sat, 16 Nov 2024 02:57:04 -0400</lastBuildDate>
         <atom:link href="https://hexaraxia.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Dev Log 7.01</title>
+            <link>https://hexaraxia.github.io/posts/2024/11/dev-log-7.01/</link>
+            <pubDate>Sat, 16 Nov 2024 02:57:04 -0400</pubDate>
+            
+            <guid>https://hexaraxia.github.io/posts/2024/11/dev-log-7.01/</guid>
+            <description>Mini Log? Yes! I&amp;rsquo;m gonna start doing mini logs for stuff that&amp;rsquo;s not really that much content.
++Made a dummy with no code
+Different Eyes! Example 1 Your browser does not support the video tag.This was fun to make lol, it let me acually look at roblox objects and how they work. Pretty good exercise</description>
+            <content type="html"><![CDATA[<p>Mini Log? Yes! I&rsquo;m gonna start doing mini logs for stuff that&rsquo;s not really that much content.</p>
+<p>+Made a dummy with no code</p>
+<h3 id="different-eyes-example-1">Different Eyes! Example 1</h3>
+
+    <video width="720" height="405" controls class="center" >
+        <source src="/vid/dummy.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+<p>This was fun to make lol, it let me acually look at roblox objects and how they work. Pretty good exercise</p>
+<hr>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Dev Log 7</title>
+            <link>https://hexaraxia.github.io/posts/2024/11/dev-log-7/</link>
+            <pubDate>Tue, 12 Nov 2024 09:44:30 -0400</pubDate>
+            
+            <guid>https://hexaraxia.github.io/posts/2024/11/dev-log-7/</guid>
+            <description>Gonna pick up this project again. I have an idea on making a &amp;ldquo;Brain&amp;rdquo; system I can just drag and drop into NPCs. Here&amp;rsquo;s the Eye/tracking system
++Added NPC sight system
+Different Eyes! Example 1 Your browser does not support the video tag.Planning for other NPC brain power. Sight is ooonly the beginning! I have an idea to add Hearing, and Memory. Memory will be really useful for when the NPC can walk.</description>
+            <content type="html"><![CDATA[<p>Gonna pick up this project again. I have an idea on making a &ldquo;Brain&rdquo; system I can just drag and drop into NPCs. Here&rsquo;s the Eye/tracking system</p>
+<p>+Added NPC sight system</p>
+<h3 id="different-eyes-example-1">Different Eyes! Example 1</h3>
+
+    <video width="720" height="405" controls class="center" >
+        <source src="/vid/hexlog7.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+<p>Planning for other NPC brain power.
+Sight is ooonly the beginning! I have an idea to add Hearing, and Memory. Memory will be really useful for when the NPC can walk. For example, enemy NPCs will remember common paths a player takes and could possibly ambush them.</p>
+<hr>
+]]></content>
+        </item>
         
         <item>
             <title>Dev Log 6</title>
@@ -50,73 +97,6 @@ This syncs up with the walking animation and makes more sense; you&rsquo;re walk
     </video>
 
 <hr>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Dev Log 7</title>
-            <link>https://hexaraxia.github.io/posts/2024/08/dev-log-7/</link>
-            <pubDate>Thu, 08 Aug 2024 15:15:30 -0400</pubDate>
-            
-            <guid>https://hexaraxia.github.io/posts/2024/08/dev-log-7/</guid>
-            <description>Gonna pick up this project again. I have an idea on making a &amp;ldquo;Brain&amp;rdquo; system I can just drag and drop into NPCs. Here&amp;rsquo;s the Eye/tracking system
-+Added NPC sight system
-Different Eyes! Example 1 Your browser does not support the video tag.Planning for other NPC brain power. Sight is ooonly the beginning! I have an idea to add Hearing, and Memory. Memory will be really useful for when the NPC can walk.</description>
-            <content type="html"><![CDATA[<p>Gonna pick up this project again. I have an idea on making a &ldquo;Brain&rdquo; system I can just drag and drop into NPCs. Here&rsquo;s the Eye/tracking system</p>
-<p>+Added NPC sight system</p>
-<h3 id="different-eyes-example-1">Different Eyes! Example 1</h3>
-
-    <video width="720" height="405" controls class="center" >
-        <source src="/vid/hexlog7.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-<p>Planning for other NPC brain power.
-Sight is ooonly the beginning! I have an idea to add Hearing, and Memory. Memory will be really useful for when the NPC can walk. For example, enemy NPCs will remember common paths a player takes and could possibly ambush them.</p>
-<hr>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Dev Log 7.01</title>
-            <link>https://hexaraxia.github.io/posts/2024/08/dev-log-7.01/</link>
-            <pubDate>Thu, 08 Aug 2024 15:15:30 -0400</pubDate>
-            
-            <guid>https://hexaraxia.github.io/posts/2024/08/dev-log-7.01/</guid>
-            <description>Mini Log? Yes! I&amp;rsquo;m gonna start doing mini logs for stuff that&amp;rsquo;s not really that much content.
-+Made a dummy with no code
-Different Eyes! Example 1 Your browser does not support the video tag.This was fun to make lol, it let me acually look at roblox objects and how they work. Pretty good exercise</description>
-            <content type="html"><![CDATA[<p>Mini Log? Yes! I&rsquo;m gonna start doing mini logs for stuff that&rsquo;s not really that much content.</p>
-<p>+Made a dummy with no code</p>
-<h3 id="different-eyes-example-1">Different Eyes! Example 1</h3>
-
-    <video width="720" height="405" controls class="center" >
-        <source src="/vid/dummy.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-<p>This was fun to make lol, it let me acually look at roblox objects and how they work. Pretty good exercise</p>
-<hr>
-]]></content>
-        </item>
-        
-        <item>
-            <title>About Me</title>
-            <link>https://hexaraxia.github.io/posts/2024/07/about-me/</link>
-            <pubDate>Sun, 28 Jul 2024 04:30:52 -0400</pubDate>
-            
-            <guid>https://hexaraxia.github.io/posts/2024/07/about-me/</guid>
-            <description>Hi I&amp;rsquo;m Hex n I&amp;rsquo;m from the US! I also go by Hexa if there&amp;rsquo;s another &amp;ldquo;Hex&amp;rdquo; present. I am a &amp;ldquo;jack-of-all-trades&amp;rdquo; meaning i specialize in many different skills, such as digital and traditional art, 3d modeling, coding, story telling, and game making.
-I don&amp;rsquo;t have much going on in my life, but at the moment I&amp;rsquo;m majoring in bio-chemistry so I can eventually be an anesthesiologist.
-Thanks for checking out my blog </description>
-            <content type="html"><![CDATA[<h3 id="hi">Hi</h3>
-<p>I&rsquo;m <strong>Hex</strong> n I&rsquo;m from the US! I also go by <strong>Hexa</strong> if there&rsquo;s another &ldquo;Hex&rdquo; present. I am a &ldquo;jack-of-all-trades&rdquo; meaning i specialize in <em>many</em> different skills, such as digital and traditional art, 3d modeling, coding, story telling, and game making.</p>
-<p>I don&rsquo;t have much going on in my life, but at the moment I&rsquo;m majoring in bio-chemistry so I can eventually be an anesthesiologist.</p>
-<p>Thanks for checking out my blog
-
-    <img src="/img/me-4.png"  class="center"  />
-
-</p>
 ]]></content>
         </item>
         
@@ -269,11 +249,31 @@ Your browser does not support the video tag.</description>
         </item>
         
         <item>
-            <title>Where To Find Me</title>
-            <link>https://hexaraxia.github.io/posts/2024/07/where-to-find-me/</link>
-            <pubDate>Fri, 26 Jul 2024 12:16:21 -0400</pubDate>
+            <title>About Me</title>
+            <link>https://hexaraxia.github.io/posts/2024/01/about-me/</link>
+            <pubDate>Tue, 02 Jan 2024 00:00:00 -0400</pubDate>
             
-            <guid>https://hexaraxia.github.io/posts/2024/07/where-to-find-me/</guid>
+            <guid>https://hexaraxia.github.io/posts/2024/01/about-me/</guid>
+            <description>Hi I&amp;rsquo;m Hex n I&amp;rsquo;m from the US! I also go by Hexa if there&amp;rsquo;s another &amp;ldquo;Hex&amp;rdquo; present. I am a &amp;ldquo;jack-of-all-trades&amp;rdquo; meaning i specialize in many different skills, such as digital and traditional art, 3d modeling, coding, story telling, and game making.
+I don&amp;rsquo;t have much going on in my life, but at the moment I&amp;rsquo;m majoring in bio-chemistry so I can eventually be an anesthesiologist.
+Thanks for checking out my blog </description>
+            <content type="html"><![CDATA[<h3 id="hi">Hi</h3>
+<p>I&rsquo;m <strong>Hex</strong> n I&rsquo;m from the US! I also go by <strong>Hexa</strong> if there&rsquo;s another &ldquo;Hex&rdquo; present. I am a &ldquo;jack-of-all-trades&rdquo; meaning i specialize in <em>many</em> different skills, such as digital and traditional art, 3d modeling, coding, story telling, and game making.</p>
+<p>I don&rsquo;t have much going on in my life, but at the moment I&rsquo;m majoring in bio-chemistry so I can eventually be an anesthesiologist.</p>
+<p>Thanks for checking out my blog
+
+    <img src="/img/me-4.png"  class="center"  />
+
+</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Where To Find Me</title>
+            <link>https://hexaraxia.github.io/posts/2024/01/where-to-find-me/</link>
+            <pubDate>Mon, 01 Jan 2024 00:00:00 -0400</pubDate>
+            
+            <guid>https://hexaraxia.github.io/posts/2024/01/where-to-find-me/</guid>
             <description>Hi again To be honest, I&amp;rsquo;m not sure! Your best bet would be my instagram or my twitter (X). I tend to not add random people on discord so good luck messaging me there!</description>
             <content type="html"><![CDATA[<h3 id="hi-again">Hi again</h3>
 <p>To be honest, I&rsquo;m not sure!

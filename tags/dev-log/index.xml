@@ -7,28 +7,28 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 08 Aug 2024 15:15:30 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 16 Nov 2024 02:57:04 -0400</lastBuildDate>
     <atom:link href="https://hexaraxia.github.io/tags/dev-log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dev Log 7.01</title>
+      <link>https://hexaraxia.github.io/posts/2024/11/dev-log-7.01/</link>
+      <pubDate>Sat, 16 Nov 2024 02:57:04 -0400</pubDate>
+      <guid>https://hexaraxia.github.io/posts/2024/11/dev-log-7.01/</guid>
+      <description>Mini Log? Yes! I&amp;rsquo;m gonna start doing mini logs for stuff that&amp;rsquo;s not really that much content.&#xA;+Made a dummy with no code&#xA;Different Eyes! Example 1 Your browser does not support the video tag.&#xD;This was fun to make lol, it let me acually look at roblox objects and how they work. Pretty good exercise</description>
+    </item>
+    <item>
+      <title>Dev Log 7</title>
+      <link>https://hexaraxia.github.io/posts/2024/11/dev-log-7/</link>
+      <pubDate>Tue, 12 Nov 2024 09:44:30 -0400</pubDate>
+      <guid>https://hexaraxia.github.io/posts/2024/11/dev-log-7/</guid>
+      <description>Gonna pick up this project again. I have an idea on making a &amp;ldquo;Brain&amp;rdquo; system I can just drag and drop into NPCs. Here&amp;rsquo;s the Eye/tracking system&#xA;+Added NPC sight system&#xA;Different Eyes! Example 1 Your browser does not support the video tag.&#xD;Planning for other NPC brain power. Sight is ooonly the beginning! I have an idea to add Hearing, and Memory. Memory will be really useful for when the NPC can walk.</description>
+    </item>
     <item>
       <title>Dev Log 6</title>
       <link>https://hexaraxia.github.io/posts/2024/08/dev-log-6/</link>
       <pubDate>Thu, 08 Aug 2024 15:15:30 -0400</pubDate>
       <guid>https://hexaraxia.github.io/posts/2024/08/dev-log-6/</guid>
       <description>A LOT was added with this n i&amp;rsquo;m really happy with how it turned out!!!&#xA;+Added a new dynamic face with blinking Currently, theres only 1 face but I plan to make a LOOOOT more. You&amp;rsquo;re able to change the face color&#xA;Different Eyes! Example 1 Example 2 Example 3 +Added an idle, walk, and run animation&#xA;+Added music whenever the lighting changes&#xA;~Changed the base walking speed to be 6.</description>
-    </item>
-    <item>
-      <title>Dev Log 7</title>
-      <link>https://hexaraxia.github.io/posts/2024/08/dev-log-7/</link>
-      <pubDate>Thu, 08 Aug 2024 15:15:30 -0400</pubDate>
-      <guid>https://hexaraxia.github.io/posts/2024/08/dev-log-7/</guid>
-      <description>Gonna pick up this project again. I have an idea on making a &amp;ldquo;Brain&amp;rdquo; system I can just drag and drop into NPCs. Here&amp;rsquo;s the Eye/tracking system&#xA;+Added NPC sight system&#xA;Different Eyes! Example 1 Your browser does not support the video tag.&#xD;Planning for other NPC brain power. Sight is ooonly the beginning! I have an idea to add Hearing, and Memory. Memory will be really useful for when the NPC can walk.</description>
-    </item>
-    <item>
-      <title>Dev Log 7.01</title>
-      <link>https://hexaraxia.github.io/posts/2024/08/dev-log-7.01/</link>
-      <pubDate>Thu, 08 Aug 2024 15:15:30 -0400</pubDate>
-      <guid>https://hexaraxia.github.io/posts/2024/08/dev-log-7.01/</guid>
-      <description>Mini Log? Yes! I&amp;rsquo;m gonna start doing mini logs for stuff that&amp;rsquo;s not really that much content.&#xA;+Made a dummy with no code&#xA;Different Eyes! Example 1 Your browser does not support the video tag.&#xD;This was fun to make lol, it let me acually look at roblox objects and how they work. Pretty good exercise</description>
     </item>
     <item>
       <title>Dev Log 5</title>
